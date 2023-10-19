@@ -1,0 +1,24 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime"
+    ],
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": "2020",
+        "project": "./tsconfig.json"
+    },
+    "settings": {
+        "react": {
+            "version": "18"
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        "react/react-in-jsx-scope": "off"
+    }
+}

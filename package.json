@@ -1,0 +1,27 @@
+{
+  "name": "hls-lint",
+  "version": "0.0.0-prealpha",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "echo \"test\" not implemented yet",
+    "lint": "eslint ./src/**/*.{js,ts,tsx}"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "m3u8-composer": "^0.1.1",
+    "preact": "^10.18.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.6.0",
+    "eslint": "^8.51.0",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  }
+}
