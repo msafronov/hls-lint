@@ -1,0 +1,31 @@
+.table__head-col {
+    background-color: #cccccc;
+    border: 1px solid #484848;
+    box-sizing: border-box;
+}
+
+.table__head-col-internal {
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    box-sizing: border-box;
+    width: 100%;
+    height: 21px;
+}
+
+.table__head-col_size_10 {
+    width: 10%;
+}
+.table__head-col_size_20 {
+    width: 20%;
+}
+.table__head-col_size_30 {
+    width: 30%;
+}
+.table__head-col_size_40 {
+    width: 40%;
+}
+.table__head-col_size_50 {
+    width: 50%;
+}

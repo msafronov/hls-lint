@@ -1,0 +1,20 @@
+.tabs__tab-list {
+    background-color: #dddddd;
+    border-top: 1px solid #262626;
+    position: relative;
+    padding-left: 5px;
+    display: flex;
+    user-select: none;
+}
+
+.tabs__tab-list-internal {
+    position: absolute;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #808080; 
+    border-bottom: 1px solid #262626;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+}

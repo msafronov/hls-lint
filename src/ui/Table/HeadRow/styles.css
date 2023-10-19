@@ -1,0 +1,8 @@
+.table__head-row {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    z-index: 1;
+}

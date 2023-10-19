@@ -1,21 +1,26 @@
 {
   "name": "hls-lint",
-  "version": "0.0.0-prealpha",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "HLS Lint is free online validator for HLS playlists",
+  "main": "dist/index.js",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "test": "echo \"test\" not implemented yet",
-    "lint": "eslint ./src/**/*.{js,ts,tsx}"
+    "lint": "eslint ./src/**/*.{ts,tsx}"
   },
   "keywords": [],
-  "author": "",
+  "author": "Matvey Safronov",
   "license": "MIT",
   "dependencies": {
+    "@nanostores/preact": "^0.5.0",
+    "@reach/tabs": "^0.18.0",
+    "clsx": "^2.0.0",
     "m3u8-composer": "^0.1.1",
-    "preact": "^10.18.1"
+    "nanostores": "^0.9.4",
+    "preact": "^10.18.1",
+    "rich-textarea": "^0.24.2"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.6.0",

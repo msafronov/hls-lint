@@ -1,0 +1,19 @@
+.window__content-header {
+    background-color: #dddddd;
+    border: 1px solid #262626;
+    height: auto;
+}
+
+.window__content-header-internal {
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #898989;
+    border-bottom: 1px solid #898989;
+    box-sizing: border-box;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}

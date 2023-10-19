@@ -1,0 +1,6 @@
+.editor {
+    background-color: #FFFFFF;
+    counter-reset: line;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,67 @@
+.tabs__tab {
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #262626;
+    background-color: #cccccc;
+    position: relative;
+    height: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.tabs__tab[data-selected], .tabs__tab.active {
+    border-bottom: 1px solid #eeeeee;
+    background-color: #eeeeee;
+}
+
+.tabs__tab::before {
+    content: " ";
+    top: 0;
+    left: -12px;
+    width: 12px;
+    height: 22px;
+    background-image: url("/bg/tab-left-side.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    position: absolute;
+}
+
+.tabs__tab::after {
+    content: " ";
+    top: 0;
+    right: -12px;
+    width: 12px;
+    height: 22px;
+    background-image: url("/bg/tab-right-side.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+}
+
+.tabs__tab[data-selected]::before {
+    content: " ";
+    top: 0;
+    left: -12px;
+    width: 12px;
+    height: 22px;
+    background-image: url("/bg/tab-right-side-active.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    transform: scaleX(-1);
+}
+
+.tabs__tab[data-selected]::after {
+    content: " ";
+    top: 0;
+    right: -12px;
+    width: 12px;
+    height: 22px;
+    background-image: url("/bg/tab-right-side-active.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}

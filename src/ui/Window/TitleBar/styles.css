@@ -1,0 +1,7 @@
+.window__title-bar {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 19px;
+    user-select: none;
+}

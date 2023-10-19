@@ -1,0 +1,28 @@
+.window {
+    background-color: #CCCCCC;
+    border: 1px solid #262626;
+    height: auto;
+    margin: 0 auto;
+    min-width: 200px;
+}
+
+.window__internal {
+    border-top: 1px solid #bcbcbc;
+    border-left: 1px solid #bcbcbc;
+    border-right: 1px solid #898989;
+    border-bottom: 1px solid #898989;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.window_size_sm {
+    width: 30vw;
+}
+
+.window_size_md {
+    width: 40vw;
+}
+
+.window_size_lg {
+    width: 60vw;
+}

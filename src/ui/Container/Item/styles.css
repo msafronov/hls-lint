@@ -1,0 +1,4 @@
+.container__item {
+    flex-grow: 1;
+    padding: 8px;
+}

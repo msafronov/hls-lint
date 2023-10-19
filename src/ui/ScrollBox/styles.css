@@ -1,0 +1,101 @@
+.scroll-box {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+/* ScrollBar */
+.scroll-box::-webkit-scrollbar {
+    width: 16px;
+}
+
+/* Track */
+.scroll-box::-webkit-scrollbar-track {
+    background: #AAAAAA;
+    box-shadow: inset 1px 1px 1px  0px #6e6e6e;
+    border-left: 1px solid #262626;
+}
+
+/* Handle */
+.scroll-box::-webkit-scrollbar-thumb {
+    background-color: #9999FF;
+    box-shadow: inset 1px 1px 0px  0px #afb6ff;
+    border-top: 1px solid #262626;
+    border-left: 1px solid #262626;
+    border-right: 2px solid #49509e;
+    border-bottom: 1px solid #49509e;
+    height: 24px !important;
+    background-repeat: no-repeat;
+    background-image: url("/icons/scroll-handle.svg");
+    background-position: center;
+    cursor: pointer;
+}
+
+/* Handle on hover */
+.scroll-box::-webkit-scrollbar-thumb:hover {
+    background-color: #9999EE;
+}
+
+/* Buttons */
+.scroll-box::-webkit-scrollbar-button {
+  height: 16px;
+  width: 16px;
+  background-color: #dddddd;
+  box-shadow: inset 1px 0px 0px  0px #ffffff;
+  border-top: 1px solid #ffffff;
+  border-left: 1px solid #262626;
+  border-right: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+}
+
+/* Up */
+.scroll-box::-webkit-scrollbar-button:vertical:decrement {
+    background-repeat: no-repeat;
+    background-image: url("/icons/scroll-arrow-top.svg");
+    background-position: center;
+    cursor: pointer;
+}
+
+.scroll-box::-webkit-scrollbar-button:vertical:decrement:hover {
+    background-color: #eeeeee;
+}
+
+/* Down */
+.scroll-box::-webkit-scrollbar-button:vertical:increment {
+    border-top: 1px solid #262626;
+    box-shadow: inset 1px 1px 0px  0px #ffffff;
+    background-repeat: no-repeat;
+    background-image: url("/icons/scroll-arrow-bottom.svg");
+    background-position: center;
+    cursor: pointer;
+}
+
+.scroll-box::-webkit-scrollbar-button:vertical:increment:hover {
+    background-color: #eeeeee;
+}
+
+/* Left */
+.scroll-box::-webkit-scrollbar-button:horizontal:decrement {
+    background-repeat: no-repeat;
+    background-image: url("/icons/scroll-arrow-top.svg");
+    background-position: center;
+    cursor: pointer;
+}
+
+.scroll-box::-webkit-scrollbar-button:horizontal:decrement:hover {
+    background-color: #eeeeee;
+}
+
+/* Right */
+.scroll-box::-webkit-scrollbar-button:horizontal:increment {
+    border-top: 1px solid #262626;
+    box-shadow: inset 1px 1px 0px  0px #ffffff;
+    background-repeat: no-repeat;
+    background-image: url("/icons/scroll-arrow-bottom.svg");
+    background-position: center;
+    cursor: pointer;
+}
+
+.scroll-box::-webkit-scrollbar-button:horizontal:increment:hover {
+    background-color: #eeeeee;
+}

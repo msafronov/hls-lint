@@ -1,0 +1,18 @@
+.badge {
+    background-color: #262626;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 16px;
+    height: 16px;
+    margin: 0 3px;
+}
+
+.badge_theme_error {
+    background-color: #f44b4b;
+}
+
+.badge_theme_success {
+    background-color: #336600;
+}

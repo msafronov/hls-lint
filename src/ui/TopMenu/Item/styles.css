@@ -1,0 +1,8 @@
+.menu__item {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item_padding-top_sm {
+    padding-top: 2px;
+}

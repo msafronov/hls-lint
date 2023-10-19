@@ -1,0 +1,7 @@
+.window__content {
+    margin: 3px;
+    border-top: 1px solid #898989;
+    border-left: 1px solid #898989;
+    border-right: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}

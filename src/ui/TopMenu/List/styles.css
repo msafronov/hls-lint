@@ -1,0 +1,9 @@
+.menu__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}

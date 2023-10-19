@@ -1,0 +1,54 @@
+.button {
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    padding: 3px;
+}
+
+.button.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.button_theme_primary {
+    background-color: #dddddd;
+    border-left: 1px solid #262626;
+    border-right: 1px solid #262626;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #262626;
+    border-radius: 3px;
+}
+
+.button_theme_primary::before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: inset 1px 0px 0px 0px #ffffff;
+    bottom: 0px;
+    border-top: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #b7b7b7;
+    border-bottom: 1px solid #b7b7b7;
+    border-radius: 3px;
+}
+
+.button_theme_primary:active {
+    color: #ffffff !important;
+    background-color: #666666;
+}
+
+.button_theme_primary:active::before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: inset 1px 0px 0px 0px #323232;
+    bottom: 0px;
+    border-top: 1px solid #4c4c4c;
+    border-left: 1px solid #4c4c4c;
+    border-right: 1px solid #858585;
+    border-bottom: 1px solid #858585;
+}

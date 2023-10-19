@@ -1,0 +1,5 @@
+.window__footer {
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+}

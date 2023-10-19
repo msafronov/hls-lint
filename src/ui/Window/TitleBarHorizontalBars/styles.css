@@ -1,0 +1,24 @@
+.window__title-bar-horizontal-bars {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("/bg/bar-picker.svg");
+    height: 13px;
+    width: 100%;
+    margin: 3px;
+}
+
+.window__title-bar-horizontal-bar {
+    height: 13px;
+    flex-grow: 1;
+    background-repeat: no-repeat;
+}
+
+.window__title-bar-horizontal-bar_left {
+    background-image: url("/bg/bar-picker-left.svg");
+    background-position: left;
+}
+
+.window__title-bar-horizontal-bar_right {
+    background-image: url("/bg/bar-picker-right.svg");
+    background-position: right;
+}

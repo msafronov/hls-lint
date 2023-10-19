@@ -1,0 +1,86 @@
+.editor__textarea {
+    box-sizing: border-box;
+    height: 50vh;
+    padding-left: 48px;
+    resize: none;
+    border: none;
+    overflow-y: scroll;
+}
+
+.editor__textarea:focus {
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 0 2px #6666cc;
+    outline-color: #6666cc;
+    transition: .1s;
+}
+
+/* ScrollBar */
+.editor__textarea::-webkit-scrollbar {
+    width: 16px;
+}
+
+/* Track */
+.editor__textarea::-webkit-scrollbar-track {
+    background: #AAAAAA;
+    box-shadow: inset 1px 1px 1px  0px #6e6e6e;
+    border-left: 1px solid #262626;
+}
+
+/* Handle */
+.editor__textarea::-webkit-scrollbar-thumb {
+    background-color: #9999FF;
+    box-shadow: inset 1px 1px 0px  0px #afb6ff;
+    border-top: 1px solid #262626;
+    border-left: 1px solid #262626;
+    border-right: 2px solid #49509e;
+    border-bottom: 1px solid #49509e;
+    height: 24px !important;
+    background-repeat: no-repeat;
+    background-image: url("/icons/scroll-handle.svg");
+    background-position: center;
+    cursor: pointer;
+}
+
+/* Handle on hover */
+.editor__textarea::-webkit-scrollbar-thumb:hover {
+    background-color: #9999EE;
+}
+
+/* Buttons */
+.editor__textarea::-webkit-scrollbar-button {
+  height: 16px;
+  width: 16px;
+  background-color: #dddddd;
+  box-shadow: inset 1px 0px 0px  0px #ffffff;
+  border-top: 1px solid #ffffff;
+  border-left: 1px solid #262626;
+  border-right: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+}
+
+/* Up */
+.editor__textarea::-webkit-scrollbar-button:vertical:decrement {
+    background-repeat: no-repeat;
+    background-image: url("/icons/scroll-arrow-top.svg");
+    background-position: center;
+    cursor: pointer;
+}
+
+.editor__textarea::-webkit-scrollbar-button:vertical:decrement:hover {
+    background-color: #eeeeee;
+}
+
+/* Down */
+.editor__textarea::-webkit-scrollbar-button:vertical:increment {
+    border-top: 1px solid #262626;
+    box-shadow: inset 1px 1px 0px  0px #ffffff;
+    background-repeat: no-repeat;
+    background-image: url("/icons/scroll-arrow-bottom.svg");
+    background-position: center;
+    cursor: pointer;
+}
+
+.editor__textarea::-webkit-scrollbar-button:vertical:increment:hover {
+    background-color: #eeeeee;
+}

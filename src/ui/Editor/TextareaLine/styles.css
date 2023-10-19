@@ -1,0 +1,27 @@
+.editor__textarea-line {}
+
+.editor__textarea-line:first-of-type::before {
+    counter-set: line 0;
+}
+
+.editor__textarea-line::before {
+    counter-increment: line;
+    content: counter(line);
+    color: #CCCCCC;
+    width: 32px;
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    left: 0px;
+}
+
+.editor__textarea-line_error::before {
+    color: #f44b4b;
+}
+
+.editor__textarea-line_error {
+    color: #ffffff;
+    background-color: #f44b4b;
+    /* text-decoration: underline solid #f44b4b; */
+    /* text-decoration-thickness: from-font; */
+}

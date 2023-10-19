@@ -1,0 +1,31 @@
+.table__body-col {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px 0;
+}
+
+.table__body-col_selected {
+    background-color: #dddddd;
+}
+
+.table__body-col_centered {
+    text-align: center;
+}
+
+.table__body-col_size_10 {
+    width: 10%;
+}
+.table__body-col_size_20 {
+    width: 20%;
+}
+.table__body-col_size_30 {
+    width: 30%;
+}
+.table__body-col_size_40 {
+    width: 40%;
+}
+.table__body-col_size_50 {
+    width: 50%;
+}

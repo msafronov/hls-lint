@@ -1,0 +1,44 @@
+.text {
+    font-family: Lucida Grande;
+    font-weight: 400;
+}
+
+.text_weight_bold {
+    font-weight: 600;
+}
+
+.text_size_sm {
+    font-size: 10px;
+}
+
+.text_size_md {
+    font-size: 14px;
+}
+
+.text_size_lg {
+    font-size: 16px;
+}
+
+.text_color_black {
+    color: #262626;
+}
+
+.text_color_red {
+    color: #f44b4b;
+}
+
+.text_color_white {
+    color: #ffffff;
+}
+
+.text_family_lucida-grande {
+    font-family: Lucida Grande;
+}
+
+.text_family_garamond {
+    font-family: Garamond;
+}
+
+.text_decoration_none {
+    text-decoration: none;
+}
