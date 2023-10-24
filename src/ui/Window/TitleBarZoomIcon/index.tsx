@@ -8,7 +8,7 @@ export const TitleBarZoomIcon = (props: Props) => {
     return (
         <img
             className="window__title-bar-zoom-icon"
-            src="/icons/zoom-window.svg"
+            src="/hls-lint/icons/zoom-window.svg"
             alt="Zoom"
             onClick={props.onClick}
         />

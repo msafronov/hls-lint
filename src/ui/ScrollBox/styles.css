@@ -26,7 +26,7 @@
     border-bottom: 1px solid #49509e;
     height: 24px !important;
     background-repeat: no-repeat;
-    background-image: url("/icons/scroll-handle.svg");
+    background-image: url("/hls-lint/icons/scroll-handle.svg");
     background-position: center;
     cursor: pointer;
 }
@@ -51,7 +51,7 @@
 /* Up */
 .scroll-box::-webkit-scrollbar-button:vertical:decrement {
     background-repeat: no-repeat;
-    background-image: url("/icons/scroll-arrow-top.svg");
+    background-image: url("/hls-lint/icons/scroll-arrow-top.svg");
     background-position: center;
     cursor: pointer;
 }
@@ -65,7 +65,7 @@
     border-top: 1px solid #262626;
     box-shadow: inset 1px 1px 0px  0px #ffffff;
     background-repeat: no-repeat;
-    background-image: url("/icons/scroll-arrow-bottom.svg");
+    background-image: url("/hls-lint/icons/scroll-arrow-bottom.svg");
     background-position: center;
     cursor: pointer;
 }
@@ -77,7 +77,7 @@
 /* Left */
 .scroll-box::-webkit-scrollbar-button:horizontal:decrement {
     background-repeat: no-repeat;
-    background-image: url("/icons/scroll-arrow-top.svg");
+    background-image: url("/hls-lint/icons/scroll-arrow-top.svg");
     background-position: center;
     cursor: pointer;
 }
@@ -91,7 +91,7 @@
     border-top: 1px solid #262626;
     box-shadow: inset 1px 1px 0px  0px #ffffff;
     background-repeat: no-repeat;
-    background-image: url("/icons/scroll-arrow-bottom.svg");
+    background-image: url("/hls-lint/icons/scroll-arrow-bottom.svg");
     background-position: center;
     cursor: pointer;
 }

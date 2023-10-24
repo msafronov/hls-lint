@@ -8,7 +8,7 @@ export const TitleBarCollapseIcon = (props: Props) => {
     return (
         <img
             className="window__title-bar-collapse-icon"
-            src="/icons/collapse-window.svg"
+            src="/hls-lint/icons/collapse-window.svg"
             alt="Collapse"
             onClick={props.onClick}
         />

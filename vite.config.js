@@ -5,6 +5,7 @@ import preact from '@preact/preset-vite';
 import packageJSON from './package.json';
 
 export default defineConfig({
+    base: '/hls-lint',
     plugins: [
         preact(),
         splitVendorChunkPlugin(),

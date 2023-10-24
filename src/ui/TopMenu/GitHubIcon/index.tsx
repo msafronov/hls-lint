@@ -3,7 +3,7 @@ import './styles.css';
 export const GitHubIcon = () => {
     return (
         <img
-            src="/icons/github.png"
+            src="/hls-lint/icons/github.png"
             className="menu__github-icon"
             alt="HLS Lint icon"
             width="16"

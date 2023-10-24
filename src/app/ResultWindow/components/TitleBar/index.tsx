@@ -15,7 +15,7 @@ export const TitleBar = memo(() => {
 
             <Window.TitleBarHorizontalBars />
 
-            <img src="/icons/analysis.svg" alt="Result window icon" />
+            <img src="/hls-lint/icons/analysis.svg" alt="Result window icon" />
 
             <Window.TitleBarTitle>
                 <Text

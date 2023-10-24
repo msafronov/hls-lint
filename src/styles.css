@@ -7,24 +7,24 @@ body {
 
 @font-face {
   font-family: 'Garamond';
-  src: url('/fonts/applegaramond-webfont.woff2') format('woff2'),
-       url('/fonts/applegaramond-webfont.woff') format('woff');
+  src: url('/hls-lint/fonts/applegaramond-webfont.woff2') format('woff2'),
+       url('/hls-lint/fonts/applegaramond-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lucida Grande';
-  src: url('/fonts/lucidagrande-webfont.woff2') format('woff2'),
-       url('/fonts/lucidagrande-webfont.woff') format('woff');
+  src: url('/hls-lint/fonts/lucidagrande-webfont.woff2') format('woff2'),
+       url('/hls-lint/fonts/lucidagrande-webfont.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lucida Grande';
-  src: url('/fonts/lucidagrande_bold-webfont.woff2') format('woff2'),
-       url('/fonts/lucidagrande_bold-webfont.woff') format('woff');
+  src: url('/hls-lint/fonts/lucidagrande_bold-webfont.woff2') format('woff2'),
+       url('/hls-lint/fonts/lucidagrande_bold-webfont.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }

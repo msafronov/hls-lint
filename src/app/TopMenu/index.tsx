@@ -15,7 +15,7 @@ export const TopMenu = memo(() => {
     return (
         <TopMenuUI.Wrapper>
             <TopMenuUI.Item>
-                <img src="/icons/logo.svg" alt="Logo" />
+                <img src="/hls-lint/icons/logo.svg" alt="Logo" />
 
                 <TopMenuUI.List>
                     {menuList.map((menuItem) => {
