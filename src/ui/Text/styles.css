@@ -42,3 +42,45 @@
 .text_decoration_none {
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .text_size_sm {
+        font-size: 8px;
+    }
+    
+    .text_size_md {
+        font-size: 12px;
+    }
+    
+    .text_size_lg {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .text_size_sm {
+        font-size: 9px;
+    }
+    
+    .text_size_md {
+        font-size: 12px;
+    }
+    
+    .text_size_lg {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .text_size_sm {
+        font-size: calc(10px + 0.09vw);
+    }
+    
+    .text_size_md {
+        font-size: calc(12px + 0.11vw);
+    }
+    
+    .text_size_lg {
+        font-size: calc(14px + 0.13vw);
+    }
+}

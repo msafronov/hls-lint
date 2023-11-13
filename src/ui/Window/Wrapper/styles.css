@@ -26,3 +26,9 @@
 .window_size_lg {
     width: 60vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .window_size_sm, .window_size_md, .window_size_lg {
+        width: 90%;
+    }
+}

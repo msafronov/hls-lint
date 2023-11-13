@@ -1,3 +1,4 @@
+import { useCallback } from 'preact/hooks';
 import { useStore } from '@nanostores/preact';
 
 import * as Editor from '@/ui/Editor';
@@ -10,14 +11,16 @@ import { savePlaylist } from '@/app/EditorWindow/actions/playlistActions';
 export const ContentBody = () => {
     const parseResult = useStore($parseResultStore);
 
+    const onChangeHandler = useCallback((text: string) => {
+        savePlaylist(text);
+        clear();
+    }, []);
+
     return (
         <Window.ContentBody>
             <Editor.Wrapper>
                 <Editor.Textarea
-                    onChange={(text: string) => {
-                        savePlaylist(text);
-                        clear();
-                    }}
+                    onChange={onChangeHandler}
                 >
                     {(text: string) => {
                         return text.split('\n').map((value: string, idx: number) => {

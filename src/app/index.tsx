@@ -1,25 +1,15 @@
-import * as Container from '@/ui/Container';
-
+import { Main } from './Main';
 import { TopMenu } from './TopMenu';
-import { EditorWindow } from './EditorWindow';
-import { ResultWindow } from './ResultWindow';
+import { Windows } from './Windows';
 
 import './styles.css';
 
 export const App = () => {
     return (
-        <>
+        // @ts-ignore
+        <Main>
             <TopMenu />
-
-            <Container.Wrapper>
-                <Container.Item>
-                    <EditorWindow />
-                </Container.Item>
-
-                <Container.Item>
-                    <ResultWindow />
-                </Container.Item>
-            </Container.Wrapper>
-        </>
+            <Windows />
+        </Main>
     );
 };

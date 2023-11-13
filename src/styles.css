@@ -3,6 +3,7 @@ body {
   padding: 0;
   background-color: #6361a0;
   font-family: Lucida Grande;
+  min-width: 360px;
 }
 
 @font-face {
