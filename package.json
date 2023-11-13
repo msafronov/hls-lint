@@ -1,6 +1,6 @@
 {
   "name": "hls-lint",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "HLS Lint is free online validator for HLS playlists",
   "main": "dist/index.js",
   "private": true,
